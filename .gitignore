@@ -1,4 +1,9 @@
+# Project
+*.db
+*~
+local_settings.py
 *.py[co]
+.Python
 
 # Packages
 *.egg
@@ -12,6 +17,7 @@ var
 sdist
 develop-eggs
 .installed.cfg
+.ropeproject/**
 
 # Installer logs
 pip-log.txt
@@ -19,6 +25,16 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+
+# virtualenv
+lib/**
+include/**
+
+# vim buffers
+*.swo
+*.swp
+*.swn
+*.swm
 
 #Translations
 *.mo
